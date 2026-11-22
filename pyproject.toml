@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "apizen"
+version = "0.1.0"
+description = "SDK oficial das APIs da Apizen: CNPJ (Receita Federal) e CEP (com código IBGE e coordenadas)."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+keywords = ["cnpj", "cep", "receita federal", "ibge", "brasil", "api"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Natural Language :: Portuguese (Brazilian)",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://www.apizen.com.br/docs/sdks"
+Source = "https://github.com/apizenco/sdk-python"
