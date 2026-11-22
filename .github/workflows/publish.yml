@@ -1,6 +1,6 @@
 name: publish
 
-# A v* tag publishes that version to PyPI as "apizen". Trusted publishing (OIDC): PyPI
+# A v* tag publishes that version to PyPI as "apizen-sdk" (imported as apizen). Trusted publishing (OIDC): PyPI
 # trusts this workflow of this repository, so no token is stored anywhere.
 on:
   push:
