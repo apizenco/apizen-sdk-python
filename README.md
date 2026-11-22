@@ -1,6 +1,6 @@
 # apizen-sdk
 
-SDK oficial das APIs da [Apizen](https://www.apizen.com.br) para Python: CNPJ (Receita Federal, inclusive o CNPJ alfanumérico) e CEP (com código IBGE e coordenadas). Só a biblioteca padrão; Python 3.10+. Instala como `apizen-sdk` e importa como `apizen`.
+SDK oficial das APIs da [Apizen](https://apizen.com.br) para Python: CNPJ (Receita Federal, inclusive o CNPJ alfanumérico) e CEP (com código IBGE e coordenadas). Só a biblioteca padrão; Python 3.10+. Instala como `apizen-sdk` e importa como `apizen`.
 
 ```bash
 pip install apizen-sdk
@@ -27,7 +27,7 @@ print(cep["municipio"]["codigo_ibge"], cep["localizacao"])
 - Outros erros (chave inválida, formato errado) levantam `ApizenError`, com `status`.
 - `is_valid_cnpj`, `clean_cnpj`, `mask_cnpj`: CNPJ numérico e alfanumérico, sem rede.
 
-Crie as suas chaves grátis em [apizen.com.br/entrar](https://www.apizen.com.br/entrar). Documentação: [apizen.com.br/docs](https://www.apizen.com.br/docs/inicio).
+Crie as suas chaves grátis em [apizen.com.br/entrar](https://apizen.com.br/entrar). Documentação: [apizen.com.br/docs](https://apizen.com.br/docs/inicio).
 
 ## Publicar uma versão
 

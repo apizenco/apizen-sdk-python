@@ -17,7 +17,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://www.apizen.com.br/docs/sdks"
+Homepage = "https://apizen.com.br/docs/sdks"
 Source = "https://github.com/apizenco/apizen-sdk-python"
 
 # Installed as apizen-sdk, imported as apizen.
