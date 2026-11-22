@@ -1,4 +1,4 @@
-# sdk-python
+# apizen-sdk-python
 
 ## Commits and comments
 
