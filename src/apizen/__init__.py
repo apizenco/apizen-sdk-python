@@ -9,4 +9,4 @@ from .client import Apizen, ApizenError
 from .cnpj import clean_cnpj, is_valid_cnpj, mask_cnpj
 
 __all__ = ["Apizen", "ApizenError", "clean_cnpj", "is_valid_cnpj", "mask_cnpj"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"

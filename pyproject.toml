@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "apizen-sdk"
-version = "0.1.0"
+version = "0.1.1"
 description = "SDK oficial das APIs da Apizen: CNPJ (Receita Federal) e CEP (com código IBGE e coordenadas)."
 readme = "README.md"
 license = "MIT"
