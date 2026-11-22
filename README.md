@@ -28,3 +28,7 @@ print(cep["municipio"]["codigo_ibge"], cep["localizacao"])
 - `is_valid_cnpj`, `clean_cnpj`, `mask_cnpj`: CNPJ numérico e alfanumérico, sem rede.
 
 Crie as suas chaves grátis em [apizen.com.br/entrar](https://www.apizen.com.br/entrar). Documentação: [apizen.com.br/docs](https://www.apizen.com.br/docs/inicio).
+
+## Publicar uma versão
+
+Mude `version` no `pyproject.toml` (e `__version__` em `src/apizen/__init__.py`), faça o commit e crie a tag `v<versão>` (`git tag v0.1.1 && git push origin v0.1.1`): o workflow `publish` testa, monta e publica no PyPI.
