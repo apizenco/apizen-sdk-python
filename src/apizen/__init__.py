@@ -1,4 +1,4 @@
-"""SDK oficial das APIs da Apizen: CNPJ e CEP. Só a biblioteca padrão; Python 3.9+.
+"""SDK oficial das APIs da Apizen: CNPJ e CEP. Só a biblioteca padrão; Python 3.10+.
 
     from apizen import Apizen
     apizen = Apizen(cnpj_key="sk_cnpj_…")

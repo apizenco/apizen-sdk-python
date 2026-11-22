@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "SDK oficial das APIs da Apizen: CNPJ (Receita Federal) e CEP (com código IBGE e coordenadas)."
 readme = "README.md"
 license = "MIT"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 keywords = ["cnpj", "cep", "receita federal", "ibge", "brasil", "api"]
 classifiers = [
   "Programming Language :: Python :: 3",

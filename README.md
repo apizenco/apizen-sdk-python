@@ -1,6 +1,6 @@
 # apizen
 
-SDK oficial das APIs da [Apizen](https://www.apizen.com.br) para Python: CNPJ (Receita Federal, inclusive o CNPJ alfanumérico) e CEP (com código IBGE e coordenadas). Só a biblioteca padrão; Python 3.9+.
+SDK oficial das APIs da [Apizen](https://www.apizen.com.br) para Python: CNPJ (Receita Federal, inclusive o CNPJ alfanumérico) e CEP (com código IBGE e coordenadas). Só a biblioteca padrão; Python 3.10+.
 
 ```bash
 pip install apizen
